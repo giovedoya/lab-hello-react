@@ -1,0 +1,64 @@
+.App {
+  width: 150vh;
+  margin: 0 auto;
+}
+/* Navbar */
+
+img.img-top {
+  width: 50px;
+}
+.img-top {
+  float: left;
+}
+img.img-bottom {
+  width: 50px;
+}
+.img-bottom {
+  float: right;
+}
+
+/* Header */
+
+div > section {
+  width: 35%;
+  padding-top: 8vh;
+  padding-left: 10vh;
+}
+
+h1 {
+  color: white;
+  font-size: 8vh;
+}
+
+.header p {
+  color: white;
+  font-size: 2vh;
+}
+
+div.header{
+  height: 80vh;
+  background-color: #1F2535;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+
+button {
+  width: 12vh;
+  height: 6vh;
+}
+
+/* Container */
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15vh;
+  gap: 5vh;
+}
+
+.card {
+  width: 25%;
+}
+.card img {
+  width: 20vh;
+}
